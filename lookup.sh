@@ -7,4 +7,4 @@ echo "ARM: "$arm
 echo "MIPS: "$mips
 echo "x86: "$x86
 echo "x86_64: "$x86_64
-grep -c $1 * | grep -v :0
+grep -c $1 *.total | grep -v :0
