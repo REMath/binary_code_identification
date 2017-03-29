@@ -5,6 +5,10 @@ Simple way to look up to 4 bytes and guess an instruction set architecture
 
 `chmod +x lookup.sh`
 
+Decompress the raw counts
+
+`./init.sh`
+
 then lookup as
 
 `./lookup.sh "54e2"` 
